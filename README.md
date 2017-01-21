@@ -29,8 +29,13 @@ Or install it yourself as:
 ## Usage
 
 This theme is very much like minima, except that the footer is sticked to the
-bottom, to leave place for a Blockly playground, as explained in
-[the documentation](https://developers.google.com/blockly/guides/configure/web/resizable).
+bottom, to leave place for a Blockly playground in the middle of the page, as
+explained in [the documentation](https://developers.google.com/blockly/guides/configure/web/resizable).
+
+You can still use the default layout from minima for pages without Blockly. On
+pages that must contain a Blockly playground, use the blockly layout. Note that
+the page, post, home, etc. layouts have been removed because this theme has not
+been created for blogs.
 
 ## Contributing
 
