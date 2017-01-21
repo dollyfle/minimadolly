@@ -37,6 +37,8 @@ pages that must contain a Blockly playground, use the blockly layout. Note that
 the page, post, home, etc. layouts have been removed because this theme has not
 been created for blogs.
 
+This theme packages default blocks and media files from the official demos.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dollyfle/minimadolly. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
