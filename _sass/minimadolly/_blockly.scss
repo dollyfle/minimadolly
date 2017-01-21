@@ -1,0 +1,26 @@
+@import "flex";
+
+/**
+ * Sticky footer
+ */
+html, body {
+    height: 100%;
+}
+
+body {
+    @include flexbox();
+    @include flex-direction(column);
+    > main {
+        @include flex(1);
+    }
+}
+
+main {
+    @include flexbox();
+    @include flex-direction(column);
+
+    > #blocklyArea {
+        @include flex(1);
+    }
+}
+
